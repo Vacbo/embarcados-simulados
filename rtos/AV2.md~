@@ -1,0 +1,72 @@
+---
+title: Embarcados - Quiz = 1 << 1
+author: Rafael Corsi - rafael.corsi@insper.edu.br
+date: 13 de Maio de 2019
+---
+
+
+```
+========================================================================
+NOME:
+DATA:
+========================================================================
+```
+
+Ao final da disciplina o estudante será capaz de:
+
+1.	Criar softwares para microcontroladores utilizando suas especificidades;
+2.	Avaliar e melhorar soluções embarcadas integrando hardware/software levando em conta adequação a uma aplicação;
+3.	Integrar em um protótipo hardware, software básico, sistema operacional de tempo real e módulos de interfaceamento com usuários, de comunicação e de alimentação.
+
+Secundários: 
+
+4.	Compreender as limitações de microcontroladores e seus periféricos;
+5.	Buscar e analisar documentação (datasheet) e extrair informações relevantes.
+
+# Avaliação Embarcados = 1 << 1
+
+Essa avaliação é composta de duas partes: `Quiz` e `Prática`. Sendo reservados 40min para o `Quiz` e mais 3h00 para a parte `Prática`. 
+
+- Sem consulta livre
+- Realizar a caneta para poder ter revisão
+
+## Critérios de avaliação
+
+Para um aluno ser aprovado no curso, é necessário que:
+
+- Autoavaliação:
+    1. Atingir no mínimo C em todos os objetivos de aprendizagem com consenso do professor.
+
+- APS
+    1. Todas as APS menos uma com conceito igual ou superior a C.
+
+- Avaliação Prática `Quiz`:
+    1. Ter média 5 na parte referente ao `Quiz`.
+
+- Avaliação Prática `Implementação`:
+    1. Ter no mínimo dois C na parte referente a `Implementação`, ou
+    1. Ter B na ultima avaliação prática referente a `Implementação`.
+
+- Projetos:
+    1. Todos os projetos com nota igual ou superior a C.
+
+\newpage
+
+## Projete
+
+Você deve fazer o projeto de um mouse óptico via bluetooth. O projeto deve conter três diagramas:
+
+1. (1.0) Esboço mecânico
+    - Quantos botões?
+    - LEDs?
+    - Câmera?
+
+2. Um diagrama de hardawre detalhado com:
+    -  (1.0) Entradas e saídas e seus tipos (digital/ analógico/ ...)
+    -  (2.0) Periféricos internos do uC utilizados (detalhado)
+       - como conectar a câmera?
+
+3. Um diagrama de software com RTOS
+    - (2.0) Interrupções
+    - (2.0) Tasks
+    - (2.0) Comunicação: Filas e Semáforos
