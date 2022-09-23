@@ -5,7 +5,7 @@
 Simulados disponível
 
 - ⭐⭐ [cafe-expresso](cafe-expresso): Máquina de café expresso
-    - RTOS, OLED, PIO, RTT
+    - RTOS, OLED, PIO, RTT, **AFEC**
 - ⭐⭐ [patinete](patinete): Controle de um patinete elétrico
     - RTOS, OLED, PIO, RTT
 - ⭐ [cofre](cofre): Implementação de um cofre
