@@ -2,7 +2,7 @@
 
 > válido para versão >22b do curso de
 
-Simulados disponível
+Simulados:
 
 - ⭐⭐ [cafe-expresso](cafe-expresso): Máquina de café expresso
     - RTOS, OLED, PIO, RTT, **AFEC**
