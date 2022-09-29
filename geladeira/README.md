@@ -99,6 +99,10 @@ Dicas:
 - Criar struct para ajudar organizar modo X tempos
 - Criar vetor de struct
 
+Você vai precisar contar duas grandezas de tempo diferente: A do LED e a do tempo que ele fica ligado/ desligado. Você pode usar o xTimer (relógio do sistema operacional) de uma olhada em como fizemos para o AFEC:
+
+- https://insper.github.io/ComputacaoEmbarcada/navigation/Dicas/Util-freertos/#software-timer
+
 ### extras
 
 > Só pára você praticar.. na prova vai ser apenas até o necessário.
