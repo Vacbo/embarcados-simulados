@@ -14,3 +14,10 @@ Simulados:
     - RTOS, OLED, PIO, RTT
 - [rtos](rtos): Prática de RTOS com UART
     - RTOS, OLED, PIO, RTT, UART
+
+Provas passadas:
+
+- 22b-av1: Motor de passo
+    - RTOS, OLED, RTT
+- 22b-av2: LED RGB com PWM
+    - RTOS, AFEC, RTT e PWM
