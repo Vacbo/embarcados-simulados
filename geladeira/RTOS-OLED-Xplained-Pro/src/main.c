@@ -27,14 +27,14 @@
 #define BUT_1_IDX 28
 #define BUT_1_IDX_MASK (1u << BUT_1_IDX)
 
-#define BUT_2_PIO PIOA
-#define BUT_2_PIO_ID ID_PIOA
-#define BUT_2_IDX 19
+#define BUT_2_PIO PIOC
+#define BUT_2_PIO_ID ID_PIOC
+#define BUT_2_IDX 31
 #define BUT_2_IDX_MASK (1u << BUT_2_IDX)
 
-#define BUT_3_PIO PIOC
-#define BUT_3_PIO_ID ID_PIOC
-#define BUT_3_IDX 31
+#define BUT_3_PIO PIOA
+#define BUT_3_PIO_ID ID_PIOA
+#define BUT_3_IDX 19
 #define BUT_3_IDX_MASK (1u << BUT_3_IDX)
 
 /** RTOS  */
@@ -115,9 +115,9 @@ void io_init(void) {
   pio_handler_set(BUT_1_PIO, BUT_1_PIO_ID, BUT_1_IDX_MASK, PIO_IT_FALL_EDGE,
   but1_callback);
   pio_handler_set(BUT_2_PIO, BUT_2_PIO_ID, BUT_2_IDX_MASK, PIO_IT_FALL_EDGE,
-  but3_callback);
-  pio_handler_set(BUT_3_PIO, BUT_3_PIO_ID, BUT_3_IDX_MASK, PIO_IT_FALL_EDGE,
   but2_callback);
+  pio_handler_set(BUT_3_PIO, BUT_3_PIO_ID, BUT_3_IDX_MASK, PIO_IT_FALL_EDGE,
+  but3_callback);
 
   pio_enable_interrupt(BUT_1_PIO, BUT_1_IDX_MASK);
   pio_enable_interrupt(BUT_2_PIO, BUT_2_IDX_MASK);
@@ -173,7 +173,7 @@ int main(void) {
 	/* Start the scheduler. */
 	vTaskStartScheduler();
 
-  /* RTOS não deve chegar aqui !! */
+  /* RTOS nÃ£o deve chegar aqui !! */
 	while(1){}
 
 	/* Will only get here if there was insufficient memory to create the idle task. */
