@@ -1,6 +1,13 @@
 # Simulados comp. embarcada
 
-> válido para versão >22b do curso de
+Provas 22b:
+
+- ⭐⭐ 22b-av1: Motor de passo: https://github.com/insper-classroom/22b-emb-av1
+    - RTOS, OLED, RTT
+- ⭐⭐ 22b-av2: LED RGB: https://github.com/insper-classroom/22b-emb-av2/settings
+    - RTOS, AFEC, RTT e PWM (periférico novo)
+- ⭐⭐ 22b-av3: Jogo Genius: https://github.com/insper-classroom/22b-emb-av3
+    - RTOS, TC, OLED
 
 Simulados:
 
@@ -15,9 +22,3 @@ Simulados:
 - [rtos](rtos): Prática de RTOS com UART
     - RTOS, OLED, PIO, RTT, UART
 
-Provas passadas:
-
-- 22b-av1: Motor de passo
-    - RTOS, OLED, RTT
-- 22b-av2: LED RGB com PWM
-    - RTOS, AFEC, RTT e PWM
