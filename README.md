@@ -1,6 +1,11 @@
 # Simulados comp. embarcada
 
-### Provas 22b:
+### Estudos
+
+- [RTOS](rtos): Prática de RTOS com UART
+    - RTOS, OLED, PIO, RTT, UART
+
+### Provas 22b
 
 - ⭐⭐ [AV1 Motor de passo](https://github.com/insper-classroom/22b-emb-av1)
     - RTOS, OLED, RTT
@@ -9,7 +14,7 @@
 - ⭐⭐ [AV3 Jogo Genius](https://github.com/insper-classroom/22b-emb-av3)
     - RTOS, TC, OLED
 
-### Simulados:
+### Simulados
 
 - ⭐⭐ [cafe-expresso](cafe-expresso): Máquina de café expresso
     - RTOS, OLED, PIO, RTT, **AFEC**
@@ -19,6 +24,4 @@
     - RTOS, OLED, PIO, RTT 
 - ⭐ [geladeira](geladeira): Controle de uma geladeira (e alarme)
     - RTOS, OLED, PIO, RTT
-- [rtos](rtos): Prática de RTOS com UART
-    - RTOS, OLED, PIO, RTT, UART
 
